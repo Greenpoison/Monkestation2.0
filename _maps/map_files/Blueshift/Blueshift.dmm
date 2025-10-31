@@ -23466,6 +23466,11 @@
 	},
 /turf/open/floor/plating,
 /area/station/cargo/storage)
+"eyn" = (
+/obj/effect/spawner/structure/window/reinforced/plasma,
+/obj/structure/holosign/barrier/atmos,
+/turf/closed/wall/r_wall,
+/area/station/engineering/atmos/project)
 "eyt" = (
 /obj/machinery/light/small/directional/south,
 /obj/effect/decal/cleanable/dirt,
@@ -23546,6 +23551,11 @@
 /obj/machinery/duct,
 /turf/open/floor/carpet/green,
 /area/station/commons/dorms/room2)
+"ezi" = (
+/obj/machinery/atmospherics/pipe/layer_manifold/cyan/visible,
+/obj/structure/holosign/barrier/atmos,
+/turf/open/floor/plating,
+/area/station/engineering/atmos/project)
 "ezm" = (
 /obj/effect/turf_decal/siding/wood/corner,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -164659,7 +164669,7 @@ cqE
 qCf
 veC
 cqd
-xdG
+ezi
 tCY
 oSz
 bHF
@@ -164916,7 +164926,7 @@ cqE
 gXC
 qCf
 qCf
-mui
+eyn
 nXN
 xfT
 swy
