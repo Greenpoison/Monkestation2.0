@@ -28207,6 +28207,9 @@
 "frp" = (
 /turf/open/floor/plating,
 /area/station/engineering/supermatter/room)
+"fru" = (
+/turf/closed/wall/r_wall,
+/area/station/engineering/atmos/project)
 "frA" = (
 /obj/structure/table_frame/wood,
 /obj/effect/decal/cleanable/dirt,
@@ -82441,7 +82444,7 @@
 "pWt" = (
 /obj/structure/cable,
 /turf/closed/wall/r_wall,
-/area/station/engineering/atmos/hfr_room)
+/area/station/engineering/atmos/project)
 "pWv" = (
 /obj/item/kirbyplants/random,
 /obj/effect/turf_decal/tile/neutral{
@@ -87654,6 +87657,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/station/common/wrestling/arena)
+"qWc" = (
+/obj/machinery/wish_granter,
+/turf/open/space/basic,
+/area/space)
 "qWg" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -126677,7 +126684,7 @@ fZI
 fZI
 fZI
 fZI
-fZI
+qWc
 fZI
 fZI
 fZI
@@ -167488,7 +167495,7 @@ bjn
 cWY
 vJX
 evo
-aCz
+fru
 aCz
 aCz
 tRm
