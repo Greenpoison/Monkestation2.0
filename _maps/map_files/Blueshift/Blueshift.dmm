@@ -23120,7 +23120,7 @@
 "evo" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/iron,
+/turf/open/floor/plating,
 /area/station/engineering/atmos/hfr_room)
 "evr" = (
 /obj/structure/chair,
@@ -28486,10 +28486,6 @@
 	dir = 1
 	},
 /area/station/hallway/secondary/exit)
-"fuT" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/iron,
-/area/station/engineering/atmos/pumproom)
 "fuX" = (
 /obj/structure/window/spawner/directional/south,
 /obj/structure/closet/secure_closet/hydroponics,
@@ -80387,7 +80383,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/iron,
+/turf/open/floor/plating,
 /area/station/engineering/atmos/hfr_room)
 "pAu" = (
 /obj/structure/girder,
@@ -160295,7 +160291,7 @@ wJZ
 abj
 rwM
 uho
-fuT
+abj
 pmS
 iqf
 pcl
@@ -163886,8 +163882,8 @@ sNz
 iYE
 qAu
 dXH
-liN
-qCf
+tHY
+fIA
 tch
 bHF
 xBF
@@ -164143,7 +164139,7 @@ lzF
 wHI
 qAu
 dXH
-tHY
+liN
 qCf
 ssj
 swy
