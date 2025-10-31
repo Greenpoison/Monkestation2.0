@@ -35469,9 +35469,6 @@
 /obj/machinery/duct,
 /turf/open/floor/wood,
 /area/station/service/chapel/office)
-"gPj" = (
-/turf/open/floor/iron,
-/area/station/engineering/atmos/project)
 "gPk" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -41883,12 +41880,6 @@
 /obj/structure/window/spawner/directional/north,
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
-"icU" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/station/engineering/atmos/project)
 "icV" = (
 /obj/structure/chair/stool/directional/west,
 /turf/open/floor/glass,
@@ -83187,6 +83178,7 @@
 	dir = 1;
 	name = "engineering camera"
 	},
+/obj/effect/mapping_helpers,
 /turf/open/floor/iron,
 /area/station/engineering/atmos/test_chambers)
 "qdF" = (
@@ -85679,6 +85671,9 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/prison/upper)
+"qCf" = (
+/turf/open/floor/iron,
+/area/station/engineering/atmos/project)
 "qCg" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 9
@@ -97995,6 +97990,10 @@
 	name = "Atmospherics"
 	},
 /obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/preopen{
+	id = "atmoslock";
+	name = "Atmospherics Lockdown Blast Door"
+	},
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "sVt" = (
@@ -107650,6 +107649,10 @@
 	name = "Atmospherics Maintenance"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/atmos,
+/obj/machinery/door/poddoor/preopen{
+	id = "atmoslock";
+	name = "Atmospherics Lockdown Blast Door"
+	},
 /turf/open/floor/iron,
 /area/station/maintenance/central)
 "uJZ" = (
@@ -113662,6 +113665,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/engine,
 /area/station/command/secure_bunker)
+"vPA" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/station/engineering/atmos/project)
 "vPM" = (
 /turf/open/floor/plating,
 /area/station/maintenance/port/aft)
@@ -160526,7 +160535,7 @@ pNw
 bnG
 mqy
 lHd
-gPj
+qCf
 sBt
 aXD
 aXD
@@ -160783,9 +160792,9 @@ hWB
 mui
 wMy
 bHF
-gPj
+qCf
 fSo
-gPj
+qCf
 dZc
 kqy
 kqy
@@ -161040,7 +161049,7 @@ dSi
 kQh
 mRe
 bHF
-gPj
+qCf
 bHF
 bHF
 iEy
@@ -161048,8 +161057,8 @@ bHF
 bHF
 twj
 cqE
-gPj
-gPj
+qCf
+qCf
 luR
 sBt
 boH
@@ -161297,7 +161306,7 @@ eer
 xbl
 eer
 bHF
-gPj
+qCf
 bHF
 vLj
 qhN
@@ -161305,7 +161314,7 @@ vLj
 bHF
 tch
 cqE
-gPj
+qCf
 eEX
 pWs
 puX
@@ -161554,7 +161563,7 @@ eer
 eer
 eer
 bHF
-gPj
+qCf
 bHF
 nrB
 vLa
@@ -161562,7 +161571,7 @@ vLj
 bHF
 tch
 cqE
-gPj
+qCf
 luR
 iBs
 wym
@@ -161819,7 +161828,7 @@ vLj
 bHF
 ujw
 cqE
-gPj
+qCf
 luR
 lOf
 wdb
@@ -162063,12 +162072,12 @@ wHI
 dXH
 tHY
 wst
-gPj
-gPj
+qCf
+qCf
 wYy
-gPj
-gPj
-gPj
+qCf
+qCf
+qCf
 bHF
 bHF
 fnE
@@ -162076,7 +162085,7 @@ bHF
 bHF
 tch
 cqE
-gPj
+qCf
 luR
 jvV
 cgU
@@ -162833,15 +162842,15 @@ wHI
 wHI
 dXH
 tHY
-gPj
+qCf
 tch
 bHF
 gJP
 odJ
 bHF
-gPj
+qCf
 cqE
-gPj
+qCf
 pnL
 fgR
 bHF
@@ -162849,7 +162858,7 @@ bHF
 bHF
 bHF
 ngB
-gPj
+qCf
 dTf
 vHY
 aPt
@@ -163090,7 +163099,7 @@ wHI
 fZh
 pqq
 tHY
-gPj
+qCf
 tyk
 swy
 jal
@@ -163098,7 +163107,7 @@ nfj
 ehn
 dVm
 tES
-gPj
+qCf
 aiP
 dVD
 xdG
@@ -163106,7 +163115,7 @@ pWL
 egM
 bHF
 ngB
-gPj
+qCf
 pfq
 vHY
 aCO
@@ -163347,17 +163356,17 @@ wHI
 pbt
 dXH
 liN
-gPj
+qCf
 tch
 bHF
 bJT
 jss
 bHF
-gPj
+qCf
 cqE
 gXC
 pnL
-gPj
+qCf
 mui
 cLk
 bLI
@@ -163604,13 +163613,13 @@ wHI
 vMj
 dXH
 liN
-gPj
+qCf
 tch
 bHF
 bHF
 bHF
 bHF
-gPj
+qCf
 fCh
 kZx
 nQt
@@ -163620,7 +163629,7 @@ pWL
 qug
 bHF
 jvL
-gPj
+qCf
 dLw
 vHY
 oCM
@@ -163861,23 +163870,23 @@ iYE
 qAu
 dXH
 liN
-gPj
+qCf
 tch
 bHF
 xBF
 ekm
 bHF
-gPj
+qCf
 cqE
-gPj
+qCf
 pnL
-gPj
+qCf
 bHF
 bHF
 bHF
 bHF
 jvL
-gPj
+qCf
 iox
 vHY
 gsy
@@ -164118,7 +164127,7 @@ wHI
 qAu
 dXH
 tHY
-gPj
+qCf
 ssj
 swy
 psE
@@ -164126,15 +164135,15 @@ iBp
 ehn
 rFk
 uRT
-gPj
+qCf
 pnL
-gPj
-gPj
+qCf
+qCf
 xEd
-gPj
-gPj
+qCf
+qCf
 jvL
-gPj
+qCf
 sdV
 uFl
 jzt
@@ -164375,23 +164384,23 @@ wHI
 qAu
 dXH
 liN
-gPj
+qCf
 tch
 bHF
 eNx
 uZR
 bHF
-gPj
+qCf
 cqE
-gPj
+qCf
 pnL
-gPj
+qCf
 bHF
 bHF
 bHF
 bHF
 jvL
-gPj
+qCf
 nBm
 cdE
 gsy
@@ -164638,9 +164647,9 @@ bHF
 bHF
 bHF
 bHF
-gPj
+qCf
 cqE
-gPj
+qCf
 veC
 cqd
 xdG
@@ -164889,23 +164898,23 @@ wHI
 ptW
 qAu
 liN
-gPj
+qCf
 tch
 bHF
 dtC
 sGo
 bHF
-gPj
+qCf
 cqE
 gXC
-gPj
-gPj
+qCf
+qCf
 mui
 nXN
 xfT
 swy
 mMc
-gPj
+qCf
 sBt
 mdG
 qRY
@@ -165146,7 +165155,7 @@ wHI
 cmy
 cEv
 tHY
-gPj
+qCf
 fqD
 swy
 oDV
@@ -165162,7 +165171,7 @@ tCY
 vGy
 bHF
 jvL
-gPj
+qCf
 sBt
 aqf
 qRY
@@ -165410,16 +165419,16 @@ bjM
 dyA
 bHF
 maA
-gPj
-gPj
-gPj
+qCf
+qCf
+qCf
 fgR
 bHF
 bHF
 bHF
 bHF
 jvL
-gPj
+qCf
 fSo
 vUT
 qRY
@@ -165667,18 +165676,18 @@ bHF
 bHF
 bHF
 fIA
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
 fSo
 qVI
-gPj
-gPj
-gPj
+qCf
+qCf
+qCf
 kVq
 wYy
 fth
@@ -165933,9 +165942,9 @@ sNY
 sNY
 sNY
 txl
-gPj
-gPj
-gPj
+qCf
+qCf
+qCf
 hKa
 hKa
 fth
@@ -166176,19 +166185,19 @@ qAu
 pUW
 liN
 liN
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
 iOk
 hMe
 hMe
@@ -166433,25 +166442,25 @@ qAu
 qAu
 qAu
 liN
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
 gXC
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
 gXC
-gPj
-gPj
+qCf
+qCf
 vwS
 pqj
 mJK
@@ -166691,24 +166700,24 @@ wHI
 vMj
 tHY
 fIA
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
 vwS
 oKJ
 wZF
@@ -166952,19 +166961,19 @@ liN
 liN
 tHY
 vTf
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
-gPj
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
+qCf
 fgR
 aXB
 vwS
@@ -167210,18 +167219,18 @@ qAu
 uJY
 vUT
 vJU
-gPj
-icU
-gPj
-gPj
-gPj
+qCf
+vPA
+qCf
+qCf
+qCf
 rEE
-gPj
-gPj
-gPj
+qCf
+qCf
+qCf
 vJU
-gPj
-gPj
+qCf
+qCf
 rjc
 pWt
 wGe
